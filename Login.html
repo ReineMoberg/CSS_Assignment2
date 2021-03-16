@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            width: 1024px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            font-family: sans-serif;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: cadetblue;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 300px;
+        }
+
+        td {
+            background-color: aqua;
+        }
+
+        div {
+            width: 100%;
+            background-color: lightgreen;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        form {
+            width: 70%;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 6px;
+            text-align: left;
+        }
+
+        button {
+            border: none;
+            border-radius: 8px;
+            color: white;
+        }
+
+        footer {
+            background-color: khaki;
+            width: 100%;
+        }
+
+        .login {
+            margin-left: -650px;
+            text-transform: uppercase;
+        }
+
+        .login-btn {
+            background-color: darkgreen;
+        }
+
+        .reset-btn {
+            background-color: crimson;
+        }
+
+        .inline {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <table>
+        <tr>
+            <th style="text-align: left"><h1>Headline for header</h1></th>
+            <td><a href="http://www.google.com" target="_blank">Google link 1</a></td>
+            <td><a href="http://www.google.com" target="_blank">Google link 2</a></td>
+            <td><a href="http://www.google.com" target="_blank">Google link 3</a></td>
+            <th style="text-align: right"><a href="Index.html">Index</a></th>
+        </tr>
+    </table>
+
+    <!--
+    <nav>
+        <ul>
+            <li><a href="http://www.google.com" target="_blank">Google link 1</a></li>
+            <li><a href="http://www.google.com" target="_blank">Google link 2</a></li>
+            <li><a href="http://www.google.com" target="_blank">Google link 3</a></li>
+        </ul>
+    </nav>
+
+
+
+    <a href="Index.html">Index</a>
+    -->
+</header>
+
+<div>
+    <h3 class="login">Login</h3>
+    <form>
+        <label>User:</label>
+        <input type="text" name="userName">
+        <label>Password:</label>
+        <input type="password" name="userPassword">
+        <button class="login-btn" type="submit">Login</button>
+        <button class="reset-btn" type="reset">Reset</button>
+    </form>
+</div>
+
+<footer>
+    <p><span>&copy;</span>Reine Moberg</p>
+</footer>
+
+</body>
+</html>
